@@ -5,7 +5,7 @@ const config = require('./config.json');
 
 const app = express();
 let responseObj = {
-    Name: config.name,
+    AppName: config.name,
     Dir: config.imageDir,
     Extension: config.extension,
     Count: {}
